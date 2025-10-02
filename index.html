@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presentación de Cristhian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Club #Tecnología</h1>
+    <h2>Soy Cristhian - Estudiante TIADSM</h2>
+    <img src="https://static.vecteezy.com/system/resources/previews/004/865/921/non_2x/programmer-people-concept-use-laptop-and-programming-code-program-icon-spreading-with-modern-flat-style-free-vector.jpg" alt="Mi avatar" class="avatar">
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h3>Curiosidades sobre mí</h3>
+      <button onclick="mostrar('curiosidades')">Ver más</button>
+      <div id="curiosidades" class="oculto">
+        <ul>
+          <li>Me apasiona el networking</li>
+          <li>Me gusta el billar</li>
+          <li>Estoy aprendiendo inglés</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Mi top tres de animales</h3>
+      <button onclick="mostrar('mis top')">Ver más</button>
+      <div id="mis top" class="oculto">
+      <ul>
+        <li>Perro</li>
+        <li>Águila</li>
+        <li>Delfín</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Películas favoritas</h3>
+      <button onclick="mostrar('mis peliculas fav')">Ver más</button>
+      <div id="mis peliculas fav" class="oculto">
+      <ul>
+        <li>Comedia: "Son como niños"</li>
+        <li>Terror: "El Conjuro"</li>
+        <li>Acción: "John Wick"</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Visita mi perfil en <a href="https://github.com/chrisdw23" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
